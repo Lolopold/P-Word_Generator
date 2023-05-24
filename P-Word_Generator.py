@@ -43,6 +43,7 @@ if password_type == 1234 :
 	print(Style.RESET_ALL)
 	print("\n You Can Now Copy Your Freshly New Generated Password")
 if password_type == 1:
+	cmb_list = let;
 	password_rand = random.choices(comb_list, k=password_len);
 	password = ''.join(str(list)for list in password_rand)
 	print("\n")
