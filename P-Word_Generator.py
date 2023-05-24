@@ -15,7 +15,7 @@ print("Welcome to the P-Word | Password Generator. This is version 1.0 \n\n")
 
 #inputs of user
 password_len = int(input("How Long Should Your Password Be?	"))
-password_type = int(input("""\n \n \n What Should Be Included Yn Your Password? \n
+password_type = int(input("""\n \n \n What Should Be Included In Your Password? \n
 1. Lowercase \n
 2. Uppercase \n
 3. Numbers \n
