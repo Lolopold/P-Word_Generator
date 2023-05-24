@@ -11,7 +11,7 @@
 #
 
 import random
-print("Welcome to the P-Word | Password Generator. This is version 1.0 \n\n")
+print("Welcome to the P-Word | Password Generator. This is version 1.0.1 \n\n")
 
 #inputs of user
 password_len = int(input("How Long Should Your Password Be?	"))
@@ -107,6 +107,8 @@ if password_type == 4:
 	password = ''.join(str(list)for list in password_rand)
 	print(password) 
 
+if password_type not in (1,2,3,4,12,13,14,123,134,1234,124,23,24,234,34):
+	print("\n \n Wrong Order Of Numbers Or Number(s) Not In Range (1-4).")
 
 #be polite and say bye!
 else:
